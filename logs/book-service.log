@@ -1,0 +1,499 @@
+2024-01-14 14:26:30,215 INFO [restartedMain] o.o.l.LibrifyApplication [StartupInfoLogger.java:50] Starting LibrifyApplication using Java 17 with PID 11600 (C:\Users\Gera\Documents\GitLab\Librify\build\classes\java\main started by Gera in C:\Users\Gera\Documents\GitLab\Librify)
+2024-01-14 14:26:30,243 INFO [restartedMain] o.o.l.LibrifyApplication [SpringApplication.java:662] No active profile set, falling back to 1 default profile: "default"
+2024-01-14 14:26:30,475 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-14 14:26:30,478 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-14 14:26:34,455 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-01-14 14:26:34,513 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-14 14:26:34,518 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-01-14 14:26:34,519 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-14 14:26:34,719 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-01-14 14:26:34,721 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 4240 ms
+2024-01-14 14:26:36,368 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-01-14 14:26:36,490 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-01-14 14:26:36,542 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:241] Tomcat started on port 8080 (http) with context path ''
+2024-01-14 14:26:36,584 INFO [restartedMain] o.s.s.c.TaskSchedulerRouter [TaskSchedulerRouter.java:224] No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-01-14 14:26:36,610 INFO [restartedMain] o.o.l.LibrifyApplication [StartupInfoLogger.java:56] Started LibrifyApplication in 7.869 seconds (process running for 10.651)
+2024-01-14 14:28:20,732 INFO [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-14 14:28:20,733 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:532] Initializing Servlet 'dispatcherServlet'
+2024-01-14 14:28:20,737 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:554] Completed initialization in 3 ms
+2024-01-14 14:28:20,816 WARN [http-nio-8080-exec-2] o.s.w.s.PageNotFound [DispatcherServlet.java:1300] No mapping for POST /api/register
+2024-01-14 14:28:20,864 WARN [http-nio-8080-exec-2] o.s.w.s.PageNotFound [DefaultHandlerExceptionResolver.java:452] No endpoint POST /api/register.
+2024-01-14 14:28:47,652 INFO [http-nio-8080-exec-6] o.o.l.s.AuthService [AuthService.java:21] Creating a new user: User(id=null, email=example6@example.com, password=ac2365245, books=null)
+2024-01-14 14:28:48,001 INFO [http-nio-8080-exec-6] o.o.l.s.AuthService [AuthService.java:30] User registered successfully: User(id=4, email=example6@example.com, password=$2a$10$RocHmACnE05uQH89xiPwOOKZtRs2TEXrcdgeI6LVniXpJ2wu2rZVK, books=null)
+2024-01-14 15:51:08,216 INFO [restartedMain] o.o.l.LibrifyApplication [StartupInfoLogger.java:50] Starting LibrifyApplication using Java 17 with PID 1484 (C:\Users\Gera\Documents\GitLab\Librify\build\classes\java\main started by Gera in C:\Users\Gera\Documents\GitLab\Librify)
+2024-01-14 15:51:08,224 INFO [restartedMain] o.o.l.LibrifyApplication [SpringApplication.java:662] No active profile set, falling back to 1 default profile: "default"
+2024-01-14 15:51:08,430 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-14 15:51:08,432 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-14 15:51:12,505 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-01-14 15:51:12,530 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-14 15:51:12,536 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-01-14 15:51:12,536 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-14 15:51:12,703 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-01-14 15:51:12,705 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 4268 ms
+2024-01-14 15:51:14,107 WARN [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:84] 
+
+Using generated security password: 76d3b5bd-bcdc-4f5b-a1ef-695d736c8b78
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-01-14 15:51:14,500 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:54] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5785051f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f650fc6, org.springframework.security.web.context.SecurityContextHolderFilter@7d08e01, org.springframework.security.web.header.HeaderWriterFilter@55e318fa, org.springframework.web.filter.CorsFilter@32043d64, org.springframework.security.web.csrf.CsrfFilter@3fc5b4fc, org.springframework.security.web.authentication.logout.LogoutFilter@319c232e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7b2450d6, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@20f0aff3, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2aa2ef1f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@524f50f1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@427d0931, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@12fc5464, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@55f0baa9, org.springframework.security.web.access.ExceptionTranslationFilter@55b864e4, org.springframework.security.web.access.intercept.AuthorizationFilter@35b78118]
+2024-01-14 15:51:14,796 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-01-14 15:51:14,965 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-01-14 15:51:15,027 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:241] Tomcat started on port 8080 (http) with context path ''
+2024-01-14 15:51:15,062 INFO [restartedMain] o.s.s.c.TaskSchedulerRouter [TaskSchedulerRouter.java:224] No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-01-14 15:51:15,082 INFO [restartedMain] o.o.l.LibrifyApplication [StartupInfoLogger.java:56] Started LibrifyApplication in 8.229 seconds (process running for 11.146)
+2024-01-14 15:51:32,663 INFO [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-14 15:51:32,665 INFO [http-nio-8080-exec-4] o.s.w.s.DispatcherServlet [FrameworkServlet.java:532] Initializing Servlet 'dispatcherServlet'
+2024-01-14 15:51:32,669 INFO [http-nio-8080-exec-4] o.s.w.s.DispatcherServlet [FrameworkServlet.java:554] Completed initialization in 3 ms
+2024-01-14 15:51:32,857 WARN [http-nio-8080-exec-4] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [103] milliseconds.
+2024-01-14 15:55:32,338 INFO [restartedMain] o.o.l.LibrifyApplication [StartupInfoLogger.java:50] Starting LibrifyApplication using Java 17 with PID 760 (C:\Users\Gera\Documents\GitLab\Librify\build\classes\java\main started by Gera in C:\Users\Gera\Documents\GitLab\Librify)
+2024-01-14 15:55:32,345 INFO [restartedMain] o.o.l.LibrifyApplication [SpringApplication.java:662] No active profile set, falling back to 1 default profile: "default"
+2024-01-14 15:55:32,570 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-14 15:55:32,573 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-14 15:55:36,391 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-01-14 15:55:36,432 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-14 15:55:36,438 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-01-14 15:55:36,441 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-14 15:55:36,615 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-01-14 15:55:36,616 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 4038 ms
+2024-01-14 15:55:38,051 WARN [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:84] 
+
+Using generated security password: 9caa7cd9-8f2a-4c70-94ff-00077610f6f0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-01-14 15:55:38,395 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:54] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@118b1e70, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6f5f2daa, org.springframework.security.web.context.SecurityContextHolderFilter@11b0e731, org.springframework.security.web.header.HeaderWriterFilter@546346b4, org.springframework.web.filter.CorsFilter@76952754, org.springframework.security.web.csrf.CsrfFilter@3f25364e, org.springframework.security.web.authentication.logout.LogoutFilter@2aa2ef1f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@34b7aa6d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@576bd1fc, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@56294327, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@56750be0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b47e094, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21d917c8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f98af0c, org.springframework.security.web.access.ExceptionTranslationFilter@319c232e, org.springframework.security.web.access.intercept.AuthorizationFilter@dcc3223]
+2024-01-14 15:55:38,694 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-01-14 15:55:38,853 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-01-14 15:55:38,926 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:241] Tomcat started on port 8080 (http) with context path ''
+2024-01-14 15:55:38,960 INFO [restartedMain] o.s.s.c.TaskSchedulerRouter [TaskSchedulerRouter.java:224] No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-01-14 15:55:38,975 INFO [restartedMain] o.o.l.LibrifyApplication [StartupInfoLogger.java:56] Started LibrifyApplication in 7.95 seconds (process running for 10.8)
+2024-01-14 15:56:15,318 INFO [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-14 15:56:15,319 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:532] Initializing Servlet 'dispatcherServlet'
+2024-01-14 15:56:15,322 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:554] Completed initialization in 1 ms
+2024-01-14 16:03:01,498 INFO [restartedMain] o.o.l.LibrifyApplication [StartupInfoLogger.java:50] Starting LibrifyApplication using Java 17 with PID 5548 (C:\Users\Gera\Documents\GitLab\Librify\build\classes\java\main started by Gera in C:\Users\Gera\Documents\GitLab\Librify)
+2024-01-14 16:03:01,515 INFO [restartedMain] o.o.l.LibrifyApplication [SpringApplication.java:662] No active profile set, falling back to 1 default profile: "default"
+2024-01-14 16:03:01,745 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-14 16:03:01,749 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-14 16:03:05,696 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-01-14 16:03:05,722 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-14 16:03:05,727 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-01-14 16:03:05,728 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-14 16:03:05,909 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-01-14 16:03:05,911 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 4159 ms
+2024-01-14 16:03:07,388 WARN [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:84] 
+
+Using generated security password: 613d76cd-9fad-489e-9a32-fff8256f5a78
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-01-14 16:03:07,795 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:54] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@729935e8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1e690ed2, org.springframework.security.web.context.SecurityContextHolderFilter@1ed2ca4, org.springframework.security.web.header.HeaderWriterFilter@75492eb9, org.springframework.web.filter.CorsFilter@403d085f, org.springframework.security.web.csrf.CsrfFilter@568670bf, org.springframework.security.web.authentication.logout.LogoutFilter@424006e8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2d39e707, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5e1ef092, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@34c27cbd, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@79d2a9c0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3a674418, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@81129b1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@f4f39b8, org.springframework.security.web.access.ExceptionTranslationFilter@1b4c4998, org.springframework.security.web.access.intercept.AuthorizationFilter@23f0986a]
+2024-01-14 16:03:08,079 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-01-14 16:03:08,236 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-01-14 16:03:08,318 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:241] Tomcat started on port 8080 (http) with context path ''
+2024-01-14 16:03:08,356 INFO [restartedMain] o.s.s.c.TaskSchedulerRouter [TaskSchedulerRouter.java:224] No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-01-14 16:03:08,369 INFO [restartedMain] o.o.l.LibrifyApplication [StartupInfoLogger.java:56] Started LibrifyApplication in 8.129 seconds (process running for 11.033)
+2024-01-14 16:03:48,356 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-14 16:03:48,358 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:532] Initializing Servlet 'dispatcherServlet'
+2024-01-14 16:03:48,362 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:554] Completed initialization in 2 ms
+2024-01-14 16:10:18,474 INFO [restartedMain] o.o.l.LibrifyApplication [StartupInfoLogger.java:50] Starting LibrifyApplication using Java 17 with PID 4720 (C:\Users\Gera\Documents\GitLab\Librify\build\classes\java\main started by Gera in C:\Users\Gera\Documents\GitLab\Librify)
+2024-01-14 16:10:18,486 INFO [restartedMain] o.o.l.LibrifyApplication [SpringApplication.java:662] No active profile set, falling back to 1 default profile: "default"
+2024-01-14 16:10:18,729 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-14 16:10:18,733 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-14 16:10:22,497 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-01-14 16:10:22,520 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-14 16:10:22,530 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-01-14 16:10:22,531 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-14 16:10:22,705 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-01-14 16:10:22,706 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 3970 ms
+2024-01-14 16:10:24,128 WARN [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:84] 
+
+Using generated security password: 9b609006-563e-47f6-a05b-7eb66c38b99e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-01-14 16:10:24,457 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:54] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5bc409fe, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4df93248, org.springframework.security.web.context.SecurityContextHolderFilter@8cb18dc, org.springframework.security.web.header.HeaderWriterFilter@2c27b9e0, org.springframework.web.filter.CorsFilter@27f2fa8e, org.springframework.security.web.csrf.CsrfFilter@2d1b7bc3, org.springframework.security.web.authentication.logout.LogoutFilter@93cf328, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@edd4ff1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@34b7aa6d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6d8a0fee, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3bb5b3d5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@76d6d316, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@10c2dc90, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@167a7058, org.springframework.security.web.access.ExceptionTranslationFilter@23c84ee, org.springframework.security.web.access.intercept.AuthorizationFilter@3e17624b]
+2024-01-14 16:10:24,803 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-01-14 16:10:25,024 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-01-14 16:10:25,079 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:241] Tomcat started on port 8080 (http) with context path ''
+2024-01-14 16:10:25,123 INFO [restartedMain] o.s.s.c.TaskSchedulerRouter [TaskSchedulerRouter.java:224] No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-01-14 16:10:25,139 INFO [restartedMain] o.o.l.LibrifyApplication [StartupInfoLogger.java:56] Started LibrifyApplication in 7.988 seconds (process running for 11.242)
+2024-01-14 16:10:56,391 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-14 16:10:56,392 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:532] Initializing Servlet 'dispatcherServlet'
+2024-01-14 16:10:56,397 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:554] Completed initialization in 4 ms
+2024-01-14 16:18:12,082 INFO [restartedMain] o.o.l.LibrifyApplication [StartupInfoLogger.java:50] Starting LibrifyApplication using Java 17 with PID 9132 (C:\Users\Gera\Documents\GitLab\Librify\build\classes\java\main started by Gera in C:\Users\Gera\Documents\GitLab\Librify)
+2024-01-14 16:18:12,090 INFO [restartedMain] o.o.l.LibrifyApplication [SpringApplication.java:662] No active profile set, falling back to 1 default profile: "default"
+2024-01-14 16:18:12,282 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-14 16:18:12,284 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-14 16:18:16,270 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-01-14 16:18:16,311 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-14 16:18:16,318 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-01-14 16:18:16,319 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-14 16:18:16,488 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-01-14 16:18:16,494 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 4201 ms
+2024-01-14 16:18:18,123 WARN [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:84] 
+
+Using generated security password: 66cc6568-b330-4bae-bdcb-18225433b3e9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-01-14 16:18:18,598 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:54] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@f4f39b8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5906a91d, org.springframework.security.web.context.SecurityContextHolderFilter@6071ac1b, org.springframework.security.web.header.HeaderWriterFilter@3dede6c6, org.springframework.web.filter.CorsFilter@71513d92, org.springframework.security.web.csrf.CsrfFilter@98bca6d, org.springframework.security.web.authentication.logout.LogoutFilter@5b3a6909, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5fe42c74, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6ea34173, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@56519091, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1e690ed2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@32bf78d6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33629391, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2025f11a, org.springframework.security.web.access.ExceptionTranslationFilter@1f6665b, org.springframework.security.web.access.intercept.AuthorizationFilter@3d07e50c]
+2024-01-14 16:18:18,929 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-01-14 16:18:19,073 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-01-14 16:18:19,135 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:241] Tomcat started on port 8080 (http) with context path ''
+2024-01-14 16:18:19,181 INFO [restartedMain] o.s.s.c.TaskSchedulerRouter [TaskSchedulerRouter.java:224] No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-01-14 16:18:19,195 INFO [restartedMain] o.o.l.LibrifyApplication [StartupInfoLogger.java:56] Started LibrifyApplication in 8.8 seconds (process running for 12.813)
+2024-01-14 16:18:28,553 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-14 16:18:28,555 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:532] Initializing Servlet 'dispatcherServlet'
+2024-01-14 16:18:28,557 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:554] Completed initialization in 2 ms
+2024-01-14 18:48:20,412 INFO [restartedMain] o.o.l.LibrifyApplication [StartupInfoLogger.java:50] Starting LibrifyApplication using Java 17 with PID 12488 (C:\Users\Gera\Documents\GitLab\Librify\build\classes\java\main started by Gera in C:\Users\Gera\Documents\GitLab\Librify)
+2024-01-14 18:48:20,437 INFO [restartedMain] o.o.l.LibrifyApplication [SpringApplication.java:662] No active profile set, falling back to 1 default profile: "default"
+2024-01-14 18:48:20,688 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-14 18:48:20,691 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-14 18:48:24,075 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-01-14 18:48:24,098 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-14 18:48:24,102 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-01-14 18:48:24,103 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-14 18:48:24,301 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-01-14 18:48:24,305 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 3612 ms
+2024-01-14 18:48:25,783 WARN [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:84] 
+
+Using generated security password: d183dea9-6b82-4b53-b1e4-393f5948e6b1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-01-14 18:48:26,242 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:54] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1daa68cb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2dcf382e, org.springframework.security.web.context.SecurityContextHolderFilter@75d2380a, org.springframework.security.web.header.HeaderWriterFilter@359df255, org.springframework.web.filter.CorsFilter@1e91e6be, org.springframework.security.web.csrf.CsrfFilter@f390a33, org.springframework.security.web.authentication.logout.LogoutFilter@7a443c4f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6f024569, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@22aef75e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6d29e2ac, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@de7b656, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ba374c0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75a46f4a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@238b23f2, org.springframework.security.web.access.ExceptionTranslationFilter@3728b9eb, org.springframework.security.web.access.intercept.AuthorizationFilter@1fa99bf]
+2024-01-14 18:48:26,656 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-01-14 18:48:26,838 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-01-14 18:48:27,017 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:241] Tomcat started on port 8080 (http) with context path ''
+2024-01-14 18:48:27,068 INFO [restartedMain] o.s.s.c.TaskSchedulerRouter [TaskSchedulerRouter.java:224] No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-01-14 18:48:27,093 INFO [restartedMain] o.o.l.LibrifyApplication [StartupInfoLogger.java:56] Started LibrifyApplication in 7.778 seconds (process running for 11.849)
+2024-01-14 18:49:03,536 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-14 18:49:03,537 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:532] Initializing Servlet 'dispatcherServlet'
+2024-01-14 18:49:03,540 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:554] Completed initialization in 3 ms
+2024-01-14 18:53:52,015 INFO [restartedMain] o.o.l.LibrifyApplication [StartupInfoLogger.java:50] Starting LibrifyApplication using Java 17 with PID 7516 (C:\Users\Gera\Documents\GitLab\Librify\build\classes\java\main started by Gera in C:\Users\Gera\Documents\GitLab\Librify)
+2024-01-14 18:53:52,025 INFO [restartedMain] o.o.l.LibrifyApplication [SpringApplication.java:662] No active profile set, falling back to 1 default profile: "default"
+2024-01-14 18:53:52,296 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-14 18:53:52,299 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-14 18:53:56,171 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-01-14 18:53:56,194 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-14 18:53:56,198 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-01-14 18:53:56,199 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-14 18:53:56,342 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-01-14 18:53:56,343 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 4037 ms
+2024-01-14 18:53:57,540 WARN [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:84] 
+
+Using generated security password: 9240178a-4f93-4c76-a164-6378fa3e8c2b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-01-14 18:53:57,857 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:54] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2e5ff914, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a9b928b, org.springframework.security.web.context.SecurityContextHolderFilter@72d43b38, org.springframework.security.web.header.HeaderWriterFilter@46089f56, org.springframework.web.filter.CorsFilter@6782e57d, org.springframework.security.web.csrf.CsrfFilter@3728b9eb, org.springframework.security.web.authentication.logout.LogoutFilter@41edb3cd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@238b23f2, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3815cbf5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@26fe6764, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6065eda, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@73ec9c89, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f2483c8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7738adf6, org.springframework.security.web.access.ExceptionTranslationFilter@7f1647a, org.springframework.security.web.access.intercept.AuthorizationFilter@6d29e2ac]
+2024-01-14 18:53:58,121 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-01-14 18:53:58,236 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-01-14 18:53:58,277 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:241] Tomcat started on port 8080 (http) with context path ''
+2024-01-14 18:53:58,305 INFO [restartedMain] o.s.s.c.TaskSchedulerRouter [TaskSchedulerRouter.java:224] No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-01-14 18:53:58,317 INFO [restartedMain] o.o.l.LibrifyApplication [StartupInfoLogger.java:56] Started LibrifyApplication in 7.297 seconds (process running for 9.652)
+2024-01-14 18:56:24,780 INFO [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-14 18:56:24,783 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:532] Initializing Servlet 'dispatcherServlet'
+2024-01-14 18:56:24,786 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:554] Completed initialization in 1 ms
+2024-01-14 19:09:00,014 INFO [restartedMain] o.o.l.LibrifyApplication [StartupInfoLogger.java:50] Starting LibrifyApplication using Java 17 with PID 7424 (C:\Users\Gera\Documents\GitLab\Librify\build\classes\java\main started by Gera in C:\Users\Gera\Documents\GitLab\Librify)
+2024-01-14 19:09:00,052 INFO [restartedMain] o.o.l.LibrifyApplication [SpringApplication.java:662] No active profile set, falling back to 1 default profile: "default"
+2024-01-14 19:09:00,358 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-14 19:09:00,362 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-14 19:09:04,328 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-01-14 19:09:04,350 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-14 19:09:04,354 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-01-14 19:09:04,355 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-14 19:09:04,484 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-01-14 19:09:04,485 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 4116 ms
+2024-01-14 19:09:05,701 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-01-14 19:09:05,804 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-01-14 19:09:05,847 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:241] Tomcat started on port 8080 (http) with context path ''
+2024-01-14 19:09:05,871 INFO [restartedMain] o.s.s.c.TaskSchedulerRouter [TaskSchedulerRouter.java:224] No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-01-14 19:09:05,883 INFO [restartedMain] o.o.l.LibrifyApplication [StartupInfoLogger.java:56] Started LibrifyApplication in 6.844 seconds (process running for 9.127)
+2024-01-14 19:09:21,779 INFO [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-14 19:09:21,780 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:532] Initializing Servlet 'dispatcherServlet'
+2024-01-14 19:09:21,784 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:554] Completed initialization in 3 ms
+2024-01-14 19:09:22,076 INFO [http-nio-8080-exec-2] o.o.l.s.BookService [BookService.java:44] Creating a new book: Book(id=null, name=Mamamam, author=Puskin, borrowed=Borrowed(firstName=Olga, lastName=Tretí, from=1.2.2024))
+2024-01-14 19:09:22,155 INFO [http-nio-8080-exec-2] o.o.l.s.BookService [BookService.java:46] New book created successfully
+2024-01-14 19:10:24,880 INFO [http-nio-8080-exec-5] o.o.l.s.BookService [BookService.java:34] Getting list of free books
+2024-01-14 19:10:51,872 INFO [http-nio-8080-exec-6] o.o.l.s.BookService [BookService.java:39] Getting list of borrowed books
+2024-01-14 19:11:51,138 INFO [http-nio-8080-exec-7] o.o.l.s.BookService [BookService.java:50] Updating book with ID: 10
+2024-01-14 19:11:51,155 INFO [http-nio-8080-exec-7] o.o.l.s.BookService [BookService.java:52] Book with ID 10 has been updated successfully
+2024-01-14 19:12:34,281 INFO [http-nio-8080-exec-8] o.o.l.s.BookService [BookService.java:50] Updating book with ID: 20
+2024-01-14 19:12:34,289 ERROR [http-nio-8080-exec-8] o.o.l.r.BookRepositoryImpl [BookRepositoryImpl.java:66] Book with ID 20 not found
+2024-01-14 19:12:34,298 ERROR [http-nio-8080-exec-8] o.a.c.c.C.[.[.[.[dispatcherServlet] [DirectJDKLog.java:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: Book with ID 20 not found] with root cause
+java.lang.IllegalArgumentException: Book with ID 20 not found
+	at org.obrancova.librify.repository.BookRepositoryImpl.updateBook(BookRepositoryImpl.java:67)
+	at org.obrancova.librify.service.BookService.updateBook(BookService.java:51)
+	at org.obrancova.librify.controller.BookController.updateBook(BookController.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:262)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-01-14 19:13:18,106 INFO [http-nio-8080-exec-10] o.o.l.s.BookService [BookService.java:62] Deleting book with ID: 13
+2024-01-14 19:13:18,114 ERROR [http-nio-8080-exec-10] o.o.l.r.BookRepositoryImpl [BookRepositoryImpl.java:114] Book with ID 13 not found
+2024-01-14 19:13:18,117 ERROR [http-nio-8080-exec-10] o.a.c.c.C.[.[.[.[dispatcherServlet] [DirectJDKLog.java:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: Book with ID 13 not found] with root cause
+java.lang.IllegalArgumentException: Book with ID 13 not found
+	at org.obrancova.librify.repository.BookRepositoryImpl.deleteBookById(BookRepositoryImpl.java:115)
+	at org.obrancova.librify.service.BookService.deleteBookById(BookService.java:63)
+	at org.obrancova.librify.controller.BookController.deleteBook(BookController.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:262)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-01-14 19:13:25,978 INFO [http-nio-8080-exec-2] o.o.l.s.BookService [BookService.java:62] Deleting book with ID: 12
+2024-01-14 19:13:25,993 INFO [http-nio-8080-exec-2] o.o.l.s.BookService [BookService.java:64] Book with ID 12 has been deleted successfully
+2024-01-14 19:14:17,700 INFO [http-nio-8080-exec-3] o.o.l.s.BookService [BookService.java:56] Managing book transaction with ID: 10
+2024-01-14 19:14:17,713 INFO [http-nio-8080-exec-3] o.o.l.s.BookService [BookService.java:58] Book transaction with ID 10 has been completed successfully
+2024-01-14 19:15:46,824 INFO [http-nio-8080-exec-6] o.o.l.s.BookService [BookService.java:56] Managing book transaction with ID: 5
+2024-01-14 19:15:46,834 INFO [http-nio-8080-exec-6] o.o.l.s.BookService [BookService.java:58] Book transaction with ID 5 has been completed successfully
+2024-01-14 19:22:57,466 INFO [restartedMain] o.o.l.LibrifyApplication [StartupInfoLogger.java:50] Starting LibrifyApplication using Java 17 with PID 3420 (C:\Users\Gera\Documents\GitLab\Librify\build\classes\java\main started by Gera in C:\Users\Gera\Documents\GitLab\Librify)
+2024-01-14 19:22:57,472 INFO [restartedMain] o.o.l.LibrifyApplication [SpringApplication.java:662] No active profile set, falling back to 1 default profile: "default"
+2024-01-14 19:22:57,680 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-14 19:22:57,682 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-14 19:23:00,234 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-01-14 19:23:00,255 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-14 19:23:00,259 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-01-14 19:23:00,259 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-14 19:23:00,383 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-01-14 19:23:00,384 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 2698 ms
+2024-01-14 19:23:01,725 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-01-14 19:23:01,815 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-01-14 19:23:01,856 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:241] Tomcat started on port 8080 (http) with context path ''
+2024-01-14 19:23:01,879 INFO [restartedMain] o.s.s.c.TaskSchedulerRouter [TaskSchedulerRouter.java:224] No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-01-14 19:23:01,890 INFO [restartedMain] o.o.l.LibrifyApplication [StartupInfoLogger.java:56] Started LibrifyApplication in 5.298 seconds (process running for 7.286)
+2024-01-14 19:24:10,279 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-14 19:24:10,280 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:532] Initializing Servlet 'dispatcherServlet'
+2024-01-14 19:24:10,285 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:554] Completed initialization in 3 ms
+2024-01-14 19:24:10,556 INFO [http-nio-8080-exec-1] o.o.l.s.AuthService [AuthService.java:23] Creating a new user: User(id=null, email=example5@example.com, password=ac23ghf65243)
+2024-01-14 19:24:10,798 INFO [http-nio-8080-exec-1] o.o.l.s.AuthService [AuthService.java:32] User registered successfully: User(id=5, email=example5@example.com, password=$2a$10$6ueAjIix02EUEfRdQUZBLul5CgAi2OyQ.qpZgvDUM2NikxYvYUh26)
+2024-01-14 19:24:32,860 INFO [http-nio-8080-exec-3] o.o.l.s.AuthService [AuthService.java:23] Creating a new user: User(id=null, email=example5@example.com, password=ac23ghf65243)
+2024-01-14 19:24:33,009 ERROR [http-nio-8080-exec-3] o.o.l.r.AuthRepositoryImpl [AuthRepositoryImpl.java:28] User with email example5@example.com already exists
+2024-01-14 19:24:48,351 INFO [http-nio-8080-exec-5] o.o.l.s.AuthService [AuthService.java:23] Creating a new user: User(id=null, email=example6@example.com, password=)
+2024-01-14 19:25:04,007 INFO [http-nio-8080-exec-7] o.o.l.s.AuthService [AuthService.java:23] Creating a new user: User(id=null, email=example6@example.com, password=123)
+2024-01-14 19:25:19,615 INFO [http-nio-8080-exec-9] o.o.l.s.AuthService [AuthService.java:23] Creating a new user: User(id=null, email=example6@example.com, password=******)
+2024-01-14 19:25:24,682 INFO [http-nio-8080-exec-2] o.o.l.s.AuthService [AuthService.java:23] Creating a new user: User(id=null, email=example6@example.com, password=**********)
+2024-01-14 19:25:24,833 INFO [http-nio-8080-exec-2] o.o.l.s.AuthService [AuthService.java:32] User registered successfully: User(id=6, email=example6@example.com, password=$2a$10$pisup6gURzifsHH8.IV2we3FrOI8xXxYEbbfmhcIbScOb42ptxiPW)
+2024-01-14 19:51:41,025 INFO [restartedMain] o.o.l.LibrifyApplication [StartupInfoLogger.java:50] Starting LibrifyApplication using Java 17 with PID 2628 (C:\Users\Gera\Documents\GitLab\Librify\build\classes\java\main started by Gera in C:\Users\Gera\Documents\GitLab\Librify)
+2024-01-14 19:51:41,030 INFO [restartedMain] o.o.l.LibrifyApplication [SpringApplication.java:662] No active profile set, falling back to 1 default profile: "default"
+2024-01-14 19:51:41,221 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-14 19:51:41,223 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-14 19:51:43,736 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-01-14 19:51:43,756 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-14 19:51:43,761 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-01-14 19:51:43,761 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-14 19:51:43,882 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-01-14 19:51:43,884 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 2657 ms
+2024-01-14 19:51:44,990 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-01-14 19:51:45,084 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-01-14 19:51:45,142 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:241] Tomcat started on port 8080 (http) with context path ''
+2024-01-14 19:51:45,166 INFO [restartedMain] o.s.s.c.TaskSchedulerRouter [TaskSchedulerRouter.java:224] No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-01-14 19:51:45,178 INFO [restartedMain] o.o.l.LibrifyApplication [StartupInfoLogger.java:56] Started LibrifyApplication in 5.049 seconds (process running for 7.123)
+2024-01-14 19:52:59,731 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-14 19:52:59,732 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:532] Initializing Servlet 'dispatcherServlet'
+2024-01-14 19:52:59,735 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:554] Completed initialization in 1 ms
+2024-01-14 19:53:00,025 INFO [http-nio-8080-exec-1] o.o.l.s.AuthService [AuthService.java:23] Creating a new user: User(id=null, email=example2@example.com, password=123abc)
+2024-01-14 19:53:13,834 INFO [http-nio-8080-exec-4] o.o.l.s.AuthService [AuthService.java:23] Creating a new user: User(id=null, email=example2@example.com, password=12345abc)
+2024-01-14 19:53:14,132 INFO [http-nio-8080-exec-4] o.o.l.s.AuthService [AuthService.java:32] User registered successfully: User(id=2, email=example2@example.com, password=$2a$10$218uA0jrXAcSrEzRktTikONDSL5wcTkMA9O2h326JXZxN5aCeOdA.)
+2024-01-14 19:54:31,273 INFO [http-nio-8080-exec-7] o.o.l.s.AuthService [AuthService.java:37] Authenticating user: example2@example.com
+2024-01-14 19:54:31,421 ERROR [http-nio-8080-exec-7] o.o.l.s.AuthService [AuthService.java:46] Authentication failed for user: example2@example.com
+2024-01-14 19:54:42,819 INFO [http-nio-8080-exec-8] o.o.l.s.AuthService [AuthService.java:37] Authenticating user: example2@example.com
+2024-01-14 19:58:48,034 INFO [restartedMain] o.o.l.LibrifyApplication [StartupInfoLogger.java:50] Starting LibrifyApplication using Java 17 with PID 8708 (C:\Users\Gera\Documents\GitLab\Librify\build\classes\java\main started by Gera in C:\Users\Gera\Documents\GitLab\Librify)
+2024-01-14 19:58:48,042 INFO [restartedMain] o.o.l.LibrifyApplication [SpringApplication.java:662] No active profile set, falling back to 1 default profile: "default"
+2024-01-14 19:58:48,272 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-14 19:58:48,274 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-14 19:58:50,969 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-01-14 19:58:50,993 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-14 19:58:50,998 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-01-14 19:58:50,998 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-14 19:58:51,121 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-01-14 19:58:51,122 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 2845 ms
+2024-01-14 19:58:52,403 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-01-14 19:58:52,508 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-01-14 19:58:52,549 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:241] Tomcat started on port 8080 (http) with context path ''
+2024-01-14 19:58:52,572 INFO [restartedMain] o.s.s.c.TaskSchedulerRouter [TaskSchedulerRouter.java:224] No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-01-14 19:58:52,583 INFO [restartedMain] o.o.l.LibrifyApplication [StartupInfoLogger.java:56] Started LibrifyApplication in 5.457 seconds (process running for 7.621)
+2024-01-14 19:59:03,692 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-14 19:59:03,693 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:532] Initializing Servlet 'dispatcherServlet'
+2024-01-14 19:59:03,696 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:554] Completed initialization in 2 ms
+2024-01-14 19:59:03,955 INFO [http-nio-8080-exec-1] o.o.l.s.AuthService [AuthService.java:37] Authenticating user: example2@example.com
+2024-01-14 19:59:04,292 INFO [http-nio-8080-exec-1] o.o.l.s.AuthService [AuthService.java:43] User authenticated successfully: example2@example.com
+2024-01-14 19:59:53,585 INFO [http-nio-8080-exec-3] o.o.l.s.AuthService [AuthService.java:23] Creating a new user: User(id=null, email=example3@example.com, password=password123)
+2024-01-14 19:59:53,887 INFO [http-nio-8080-exec-3] o.o.l.s.AuthService [AuthService.java:32] User registered successfully: User(id=3, email=example3@example.com, password=$2a$10$Gvx0t0DmmfjjHW.mD51UZOT4hkvud6doH.qibu.5q/.3iS1qp6JVi)
+2024-01-14 20:00:25,558 INFO [http-nio-8080-exec-4] o.o.l.s.AuthService [AuthService.java:37] Authenticating user: example3@example.com
+2024-01-14 20:00:25,710 INFO [http-nio-8080-exec-4] o.o.l.s.AuthService [AuthService.java:43] User authenticated successfully: example3@example.com
+2024-01-14 20:00:39,609 INFO [http-nio-8080-exec-5] o.o.l.s.AuthService [AuthService.java:37] Authenticating user: example4@example.com
+2024-01-14 20:00:52,147 INFO [http-nio-8080-exec-7] o.o.l.s.AuthService [AuthService.java:37] Authenticating user: example3@example.com
+2024-01-14 20:00:52,307 ERROR [http-nio-8080-exec-7] o.o.l.s.AuthService [AuthService.java:46] Authentication failed for user: example3@example.com
+2024-01-14 20:02:42,570 INFO [http-nio-8080-exec-9] o.o.l.s.AuthService [AuthService.java:37] Authenticating user: example3yexample.com
+2024-01-14 20:02:53,739 INFO [http-nio-8080-exec-2] o.o.l.s.AuthService [AuthService.java:23] Creating a new user: User(id=null, email=example3yexample.com, password=password144)
+2024-01-14 20:03:19,706 INFO [http-nio-8080-exec-4] o.o.l.s.AuthService [AuthService.java:23] Creating a new user: User(id=null, email=example3@examplecom, password=password144)
+2024-01-14 20:03:31,915 INFO [http-nio-8080-exec-5] o.o.l.s.AuthService [AuthService.java:23] Creating a new user: User(id=null, email=example3@example.ru, password=password144)
+2024-01-14 20:03:32,071 INFO [http-nio-8080-exec-5] o.o.l.s.AuthService [AuthService.java:32] User registered successfully: User(id=4, email=example3@example.ru, password=$2a$10$Ht8nV4vaqHYnXWHMU91JKOC8aknlzNG8SatMFnRVkCLzFkqZtg6kC)
+2024-01-14 20:03:52,952 INFO [http-nio-8080-exec-7] o.o.l.s.AuthService [AuthService.java:37] Authenticating user: example3@example.ru
+2024-01-14 20:03:53,210 INFO [http-nio-8080-exec-7] o.o.l.s.AuthService [AuthService.java:43] User authenticated successfully: example3@example.ru
+2024-01-14 20:26:01,101 INFO [Test worker] o.o.l.s.BookService [BookService.java:44] Creating a new book: Book(id=1, name=Test Book, author=Test Author, borrowed=Borrowed(firstName=null, lastName=null, from=null))
+2024-01-14 20:26:01,316 INFO [Test worker] o.o.l.s.BookService [BookService.java:46] New book created successfully
+2024-01-14 20:30:27,974 INFO [Test worker] o.o.l.s.BookService [BookService.java:29] Returning 1 books
+2024-01-14 20:30:48,827 INFO [Test worker] o.o.l.s.BookService [BookService.java:44] Creating a new book: Book(id=1, name=Test Book, author=Test Author, borrowed=Borrowed(firstName=null, lastName=null, from=null))
+2024-01-14 20:30:49,029 INFO [Test worker] o.o.l.s.BookService [BookService.java:46] New book created successfully
+2024-01-14 20:31:53,970 INFO [Test worker] o.o.l.s.BookService [BookService.java:29] Returning 2 books
+2024-01-14 20:35:11,289 INFO [Test worker] o.o.l.s.BookService [BookService.java:29] Returning 2 books
+2024-01-14 20:38:13,380 INFO [Test worker] o.o.l.s.BookService [BookService.java:29] Returning 1 books
+2024-01-14 20:38:47,459 INFO [Test worker] o.o.l.s.BookService [BookService.java:34] Getting list of free books
+2024-01-14 20:39:21,163 INFO [Test worker] o.o.l.s.BookService [BookService.java:39] Getting list of borrowed books
+2024-01-14 20:41:14,705 INFO [Test worker] o.o.l.s.BookService [BookService.java:50] Updating book with ID: 1
+2024-01-14 20:41:14,736 INFO [Test worker] o.o.l.s.BookService [BookService.java:52] Book with ID 1 has been updated successfully
+2024-01-14 20:42:32,198 INFO [Test worker] o.o.l.s.BookService [BookService.java:50] Updating book with ID: 1
+2024-01-14 20:42:32,240 INFO [Test worker] o.o.l.s.BookService [BookService.java:52] Book with ID 1 has been updated successfully
+2024-01-14 20:43:11,301 INFO [Test worker] o.o.l.s.BookService [BookService.java:29] Returning 1 books
+2024-01-14 20:43:11,469 INFO [Test worker] o.o.l.s.BookService [BookService.java:29] Returning 2 books
+2024-01-14 20:43:11,597 INFO [Test worker] o.o.l.s.BookService [BookService.java:50] Updating book with ID: 1
+2024-01-14 20:43:11,612 INFO [Test worker] o.o.l.s.BookService [BookService.java:52] Book with ID 1 has been updated successfully
+2024-01-14 20:43:11,720 INFO [Test worker] o.o.l.s.BookService [BookService.java:34] Getting list of free books
+2024-01-14 20:43:11,893 INFO [Test worker] o.o.l.s.BookService [BookService.java:44] Creating a new book: Book(id=1, name=Test Book, author=Test Author, borrowed=Borrowed(firstName=null, lastName=null, from=null))
+2024-01-14 20:43:11,899 INFO [Test worker] o.o.l.s.BookService [BookService.java:46] New book created successfully
+2024-01-14 20:43:12,121 INFO [Test worker] o.o.l.s.BookService [BookService.java:39] Getting list of borrowed books
+2024-01-14 20:44:30,057 INFO [Test worker] o.o.l.s.BookService [BookService.java:29] Returning 1 books
+2024-01-14 20:44:30,219 INFO [Test worker] o.o.l.s.BookService [BookService.java:29] Returning 2 books
+2024-01-14 20:44:30,314 INFO [Test worker] o.o.l.s.BookService [BookService.java:50] Updating book with ID: 1
+2024-01-14 20:44:30,333 INFO [Test worker] o.o.l.s.BookService [BookService.java:52] Book with ID 1 has been updated successfully
+2024-01-14 20:44:30,430 INFO [Test worker] o.o.l.s.BookService [BookService.java:34] Getting list of free books
+2024-01-14 20:44:30,460 INFO [Test worker] o.o.l.s.BookService [BookService.java:44] Creating a new book: Book(id=1, name=Test Book, author=Test Author, borrowed=Borrowed(firstName=null, lastName=null, from=null))
+2024-01-14 20:44:30,502 INFO [Test worker] o.o.l.s.BookService [BookService.java:46] New book created successfully
+2024-01-14 20:44:30,545 INFO [Test worker] o.o.l.s.BookService [BookService.java:39] Getting list of borrowed books
+2024-01-14 20:47:46,400 INFO [Test worker] o.o.l.s.BookService [BookService.java:56] Managing book transaction with ID: 1
+2024-01-14 20:47:46,442 INFO [Test worker] o.o.l.s.BookService [BookService.java:58] Book transaction with ID 1 has been completed successfully
+2024-01-14 20:48:08,572 INFO [Test worker] o.o.l.s.BookService [BookService.java:56] Managing book transaction with ID: 1
+2024-01-14 20:48:08,696 INFO [Test worker] o.o.l.s.BookService [BookService.java:58] Book transaction with ID 1 has been completed successfully
+2024-01-14 20:49:00,101 INFO [Test worker] o.o.l.s.BookService [BookService.java:62] Deleting book with ID: 1
+2024-01-14 20:49:00,142 INFO [Test worker] o.o.l.s.BookService [BookService.java:64] Book with ID 1 has been deleted successfully
+2024-01-14 20:49:20,820 INFO [Test worker] o.o.l.s.BookService [BookService.java:29] Returning 1 books
+2024-01-14 20:49:21,022 INFO [Test worker] o.o.l.s.BookService [BookService.java:62] Deleting book with ID: 1
+2024-01-14 20:49:21,033 INFO [Test worker] o.o.l.s.BookService [BookService.java:64] Book with ID 1 has been deleted successfully
+2024-01-14 20:49:21,113 INFO [Test worker] o.o.l.s.BookService [BookService.java:29] Returning 2 books
+2024-01-14 20:49:21,170 INFO [Test worker] o.o.l.s.BookService [BookService.java:50] Updating book with ID: 1
+2024-01-14 20:49:21,175 INFO [Test worker] o.o.l.s.BookService [BookService.java:52] Book with ID 1 has been updated successfully
+2024-01-14 20:49:21,226 INFO [Test worker] o.o.l.s.BookService [BookService.java:34] Getting list of free books
+2024-01-14 20:49:21,256 INFO [Test worker] o.o.l.s.BookService [BookService.java:56] Managing book transaction with ID: 1
+2024-01-14 20:49:21,263 INFO [Test worker] o.o.l.s.BookService [BookService.java:58] Book transaction with ID 1 has been completed successfully
+2024-01-14 20:49:21,290 INFO [Test worker] o.o.l.s.BookService [BookService.java:44] Creating a new book: Book(id=1, name=Test Book, author=Test Author, borrowed=Borrowed(firstName=null, lastName=null, from=null))
+2024-01-14 20:49:21,356 INFO [Test worker] o.o.l.s.BookService [BookService.java:46] New book created successfully
+2024-01-14 20:49:21,394 INFO [Test worker] o.o.l.s.BookService [BookService.java:39] Getting list of borrowed books
+2024-01-14 20:58:45,232 INFO [Test worker] o.o.l.s.AuthService [AuthService.java:23] Creating a new user: User(id=null, email=null, password=null)
+2024-01-14 20:58:45,280 INFO [Test worker] o.o.l.s.AuthService [AuthService.java:32] User registered successfully: User(id=null, email=null, password=hashedPassword)
+2024-01-14 20:59:11,339 INFO [Test worker] o.o.l.s.AuthService [AuthService.java:23] Creating a new user: User(id=1, email=example@example.com, password=password123)
+2024-01-14 20:59:11,387 INFO [Test worker] o.o.l.s.AuthService [AuthService.java:32] User registered successfully: User(id=1, email=example@example.com, password=hashedPassword)
+2024-01-14 20:59:31,717 INFO [Test worker] o.o.l.s.AuthService [AuthService.java:23] Creating a new user: User(id=1, email=example@example.com, password=password123)
+2024-01-14 20:59:31,761 INFO [Test worker] o.o.l.s.AuthService [AuthService.java:32] User registered successfully: User(id=1, email=example@example.com, password=hashedPassword)
+2024-01-14 21:00:23,366 INFO [Test worker] o.o.l.s.AuthService [AuthService.java:37] Authenticating user: test@example.com
+2024-01-14 21:00:23,403 INFO [Test worker] o.o.l.s.AuthService [AuthService.java:43] User authenticated successfully: test@example.com
+2024-01-14 21:00:55,820 INFO [Test worker] o.o.l.s.AuthService [AuthService.java:37] Authenticating user: test@example.com
+2024-01-14 21:00:55,853 ERROR [Test worker] o.o.l.s.AuthService [AuthService.java:46] Authentication failed for user: test@example.com
+2024-01-14 21:01:55,218 INFO [Test worker] o.o.l.s.AuthService [AuthService.java:23] Creating a new user: User(id=1, email=example@example.com, password=password123)
+2024-01-14 21:01:55,272 INFO [Test worker] o.o.l.s.AuthService [AuthService.java:32] User registered successfully: User(id=1, email=example@example.com, password=hashedPassword)
+2024-01-14 21:01:55,453 INFO [Test worker] o.o.l.s.AuthService [AuthService.java:37] Authenticating user: test@example.com
+2024-01-14 21:01:55,457 INFO [Test worker] o.o.l.s.AuthService [AuthService.java:43] User authenticated successfully: test@example.com
+2024-01-14 21:01:55,544 INFO [Test worker] o.o.l.s.AuthService [AuthService.java:37] Authenticating user: test@example.com
+2024-01-14 21:01:55,556 ERROR [Test worker] o.o.l.s.AuthService [AuthService.java:46] Authentication failed for user: test@example.com
+2024-01-14 21:07:23,484 INFO [Test worker] o.s.t.c.s.AnnotationConfigContextLoaderUtils [AnnotationConfigContextLoaderUtils.java:83] Could not detect default configuration classes for test class [org.obrancova.librify.LibrifyApplicationTests]: LibrifyApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-01-14 21:07:23,816 INFO [Test worker] o.s.b.t.c.SpringBootTestContextBootstrapper [SpringBootTestContextBootstrapper.java:234] Found @SpringBootConfiguration org.obrancova.librify.LibrifyApplication for test class org.obrancova.librify.LibrifyApplicationTests
+2024-01-14 21:07:25,302 INFO [Test worker] o.o.l.LibrifyApplicationTests [StartupInfoLogger.java:50] Starting LibrifyApplicationTests using Java 17 with PID 9616 (started by Gera in C:\Users\Gera\Documents\GitLab\Librify)
+2024-01-14 21:07:25,307 INFO [Test worker] o.o.l.LibrifyApplicationTests [SpringApplication.java:662] No active profile set, falling back to 1 default profile: "default"
+2024-01-14 21:07:34,683 INFO [Test worker] o.s.s.c.TaskSchedulerRouter [TaskSchedulerRouter.java:224] No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-01-14 21:07:34,757 INFO [Test worker] o.o.l.LibrifyApplicationTests [StartupInfoLogger.java:56] Started LibrifyApplicationTests in 10.354 seconds (process running for 14.719)
+2024-01-14 21:07:40,655 INFO [Test worker] o.o.l.s.AuthService [AuthService.java:23] Creating a new user: User(id=1, email=example@example.com, password=password123)
+2024-01-14 21:07:40,864 INFO [Test worker] o.o.l.s.AuthService [AuthService.java:32] User registered successfully: User(id=1, email=example@example.com, password=hashedPassword)
+2024-01-14 21:07:41,209 INFO [Test worker] o.o.l.s.AuthService [AuthService.java:37] Authenticating user: test@example.com
+2024-01-14 21:07:41,232 INFO [Test worker] o.o.l.s.AuthService [AuthService.java:43] User authenticated successfully: test@example.com
+2024-01-14 21:07:41,338 INFO [Test worker] o.o.l.s.AuthService [AuthService.java:37] Authenticating user: test@example.com
+2024-01-14 21:07:41,342 ERROR [Test worker] o.o.l.s.AuthService [AuthService.java:46] Authentication failed for user: test@example.com
+2024-01-14 21:07:41,881 INFO [Test worker] o.o.l.s.BookService [BookService.java:29] Returning 1 books
+2024-01-14 21:07:41,924 INFO [Test worker] o.o.l.s.BookService [BookService.java:62] Deleting book with ID: 1
+2024-01-14 21:07:41,927 INFO [Test worker] o.o.l.s.BookService [BookService.java:64] Book with ID 1 has been deleted successfully
+2024-01-14 21:07:41,948 INFO [Test worker] o.o.l.s.BookService [BookService.java:29] Returning 2 books
+2024-01-14 21:07:41,996 INFO [Test worker] o.o.l.s.BookService [BookService.java:50] Updating book with ID: 1
+2024-01-14 21:07:41,998 INFO [Test worker] o.o.l.s.BookService [BookService.java:52] Book with ID 1 has been updated successfully
+2024-01-14 21:07:42,076 INFO [Test worker] o.o.l.s.BookService [BookService.java:34] Getting list of free books
+2024-01-14 21:07:42,096 INFO [Test worker] o.o.l.s.BookService [BookService.java:56] Managing book transaction with ID: 1
+2024-01-14 21:07:42,098 INFO [Test worker] o.o.l.s.BookService [BookService.java:58] Book transaction with ID 1 has been completed successfully
+2024-01-14 21:07:42,230 INFO [Test worker] o.o.l.s.BookService [BookService.java:44] Creating a new book: Book(id=1, name=Test Book, author=Test Author, borrowed=Borrowed(firstName=null, lastName=null, from=null))
+2024-01-14 21:07:42,290 INFO [Test worker] o.o.l.s.BookService [BookService.java:46] New book created successfully
+2024-01-14 21:07:42,311 INFO [Test worker] o.o.l.s.BookService [BookService.java:39] Getting list of borrowed books
