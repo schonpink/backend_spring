@@ -1,0 +1,25 @@
+# The relative path to the data file Library.json
+library:
+  file:
+    path: src/main/resources/json/Library.json
+
+# The relative path to the data file AuthUser.json
+auth:
+  file:
+    path: src/main/resources/json/AuthUser.json
+
+# web localhost
+cors:
+  allowedOrigins: http://localhost:4200
+
+# Setting default values for pagination parameters
+page:
+  default-number: 0
+
+pagination:
+  default-page-size: 10
+
+# JWT
+jwt:
+  secret: a5b6c7d1e9f0g1h2i3j4k5l6m7n8o9p0
+  expiration: 3600000 # 1 hour in milliseconds
