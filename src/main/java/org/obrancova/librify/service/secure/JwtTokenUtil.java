@@ -12,8 +12,8 @@ import java.util.Date;
 
 @Component
 public class JwtTokenUtil {
-    @Value("${jwt.secret}")
-    private String jwtSecret;
+//    @Value("${jwt.secret}")
+//    private String jwtSecret;
 
     @Value("${jwt.expiration}")
     private long jwtExpiration;
@@ -22,12 +22,15 @@ public class JwtTokenUtil {
         Date now = new Date();
         Date expiryDate = new Date(now.getTime() + jwtExpiration);
 
-        return Jwts.builder()
+        String token = Jwts.builder()
                 .setSubject(Long.toString(user.getId()))
+                .claim("email", user.getEmail())
                 .setIssuedAt(now)
                 .setExpiration(expiryDate)
                 .signWith(getSigningKey(), SignatureAlgorithm.HS512)
                 .compact();
+
+        return "Bearer " + token;
     }
 
     private Key getSigningKey() {
