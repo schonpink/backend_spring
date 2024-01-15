@@ -17,7 +17,7 @@ page:
   default-number: 0
 
 pagination:
-  default-page-size: 10
+  default-page-size: 6
 
 # JWT
 jwt:
